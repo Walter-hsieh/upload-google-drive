@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+<head>
+    <title>Upload PDF</title>
+</head>
+<body>
+    <div class="container my-5">
+        <div class="card shadow-lg p-4">
+        <h1>Upload PDF</h1>
+        <form method="post" enctype="multipart/form-data">
+            <div>
+                <label for="api_key">API Key:</label>
+                <input type="text" name="api_key" id="api_key" required>
+            </div>
+            <div>
+                <label for="file">Select PDF:</label>
+                <input type="file" name="file" accept="application/pdf" required>
+            </div>
+            <input type="submit" value="Upload">
+        </form>
+    </div>
+</body>
+</html>
